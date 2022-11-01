@@ -5,7 +5,7 @@ color: #757575;*/
 /* білий
 color: #FFFFFF;*/
 /* блакитний, акцент
-color: #2196F3;*/ 
+color: #2196F3;*/
 /* чорний у Studio
 color: #000000*/
 /*бекграунд сірий
@@ -13,16 +13,16 @@ background: #F5F4FA;*/
 /*підвал та герой 
 background: #2F303A;*/
 body {
-color: #212121;
-background-color:#FFFFFF;
+  color: #212121;
+  background-color: #ffffff;
 }
 .logo {
-color:#000000;
+  color: #000000;
 }
 .logo-accent {
-color:#2196F3;
+  color: #2196f3;
 }
 /* Прибирає "*" з усіх списків */
-.ul {
- list-style: none;
+ul {
+  list-style: none;
 }
