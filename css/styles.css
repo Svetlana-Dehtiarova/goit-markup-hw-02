@@ -12,13 +12,13 @@ color: #000000*/
 background: #F5F4FA;*/
 /*підвал та герой 
 background: #2F303A;*/
-body {
+body{
 color: #212121;
-background-color: #FFFFFF;
+background-color:#FFFFFF;
 }
-.logo {
-color: #000000;
+.logo{
+color:#000000;
 }
-.logo-accent {
-color: #2196F3;
+.logo-accent{
+color:#2196F3;
 }
