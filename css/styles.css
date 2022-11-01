@@ -16,6 +16,9 @@ body {
   color: #212121;
   background-color: #ffffff;
 }
+ul {
+    list-style: none;
+}
 .logo {
   color: #000000;
 }
@@ -23,6 +26,4 @@ body {
   color: #2196f3;
 }
 /* Прибирає "*" з усіх списків */
-ul {
-  list-style: none;
-}
+
