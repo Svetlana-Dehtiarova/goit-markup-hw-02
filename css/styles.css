@@ -1,0 +1,24 @@
+/*колір тексту h2 та h3
+color: #212121;*/
+/*колір тексту p у h3 та телефону в Хедері
+color: #757575;*/
+/* білий
+color: #FFFFFF;*/
+/* блакитний, акцент
+color: #2196F3;*/ 
+/* чорний у Studio
+color: #000000*/
+/*бекграунд сірий
+background: #F5F4FA;*/
+/*підвал та герой 
+background: #2F303A;*/
+body {
+color: #212121;
+background-color: #FFFFFF;
+}
+.logo {
+color: #000000;
+}
+.logo-accent {
+color: #2196F3;
+}
