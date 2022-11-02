@@ -13,7 +13,7 @@ background: #F5F4FA;*/
 /*підвал та герой 
 background: #2F303A;*/
 body {
-  color: #212121;
+  color: #757575;
   background-color: #ffffff;
 }
 /* Прибирає "*" з усіх списків */
@@ -45,4 +45,7 @@ ul {
 .contacts-list:focus,
 .contacts-list:hover {
   color: #2196f3;
+}
+.section-title {
+color: #212121;
 }
