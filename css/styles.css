@@ -27,7 +27,8 @@ ul {
 .logo-accent {
   color: #2196f3;
 }
-.logo {
+.logo:hover,
+.logo:focus {
   color: #2196f3;
 }
 /*Навігація по сайту*/
