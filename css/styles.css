@@ -46,6 +46,7 @@ ul {
 .contacts-list:hover {
   color: #2196f3;
 }
-.section-title {
+.section-title,
+.section-subtitle {
 color: #212121;
 }
