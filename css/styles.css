@@ -53,8 +53,10 @@ ul {
 .contacts.list .e-mail {
   color: var(--primary-text-color);
 }
-.contacts.list:focus,
-.contacts.list:hover {
+.contacts.list .phone:focus,
+.contacts.list .phone:hover,
+.contacts.list .e-mail:focus,
+.contacts.list .e-mail:hover {
   color: var(--accent-color);
 }
 /*Герой*/
