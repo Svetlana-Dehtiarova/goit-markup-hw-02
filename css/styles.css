@@ -49,6 +49,9 @@ ul {
 .site-nav .link:focus {
   color: var(--accent-color);
 }
+.site-nav .link.current {
+  color: var(--accent-color);
+}
 .contacts.list .phone,
 .contacts.list .e-mail {
   color: var(--primary-text-color);
