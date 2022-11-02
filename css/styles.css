@@ -39,10 +39,10 @@ ul {
 .site-nav .link:focus {
   color: #2196f3;
 }
-.contacts {
+.contacts-list {
   color: #757575;
 }
-.contacts:focus,
-.contacts:hover {
+.contacts-list:focus,
+.contacts-list:hover {
   color: #2196f3;
 }
