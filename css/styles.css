@@ -49,12 +49,12 @@ ul {
 .site-nav .link:focus {
   color: var(--accent-color);
 }
-.contacts-list>.phone,
-.contacts-list>.e-mail {
+.contacts.list .phone,
+.contacts.list .e-mail {
   color: var(--primary-text-color);
 }
-.contacts-list:focus,
-.contacts-list:hover {
+.contacts.list:focus,
+.contacts.list:hover {
   color: var(--accent-color);
 }
 /*Герой*/
@@ -69,4 +69,18 @@ color: var(--title-text-color);
 }
 .comand-section {
 background-color: var(--second-background-color);
+}
+/*Кнопка*/
+.button {
+  color: var(--title-text-color);
+  background-color: var(--second-background-color);
+}
+.button:hover,
+.button:focus{
+   color: var(--white-color);
+   background-color: var(--accent-color);
+}
+.primary-button {
+  color: var(--white-color);
+  background-color: var(--accent-color);
 }
