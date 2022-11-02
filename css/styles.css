@@ -18,7 +18,7 @@ body {
 }
 /* Прибирає "*" з усіх списків */
 ul {
-    list-style: none;
+  list-style: none;
 }
 /*кольори лого*/
 .logo {
@@ -28,16 +28,14 @@ ul {
   color: #2196f3;
 }
 .logo {
-color: #2196f3; 
-
+  color: #2196f3;
 }
 /*Навігація по сайту*/
 .site-nav .link {
-  color:#212121;
+  color: #212121;
 }
 .site-nav .link:hover,
-.site-nav .link:focus,
- {
+.site-nav .link:focus {
   color: #2196f3;
 }
 .contacts {
