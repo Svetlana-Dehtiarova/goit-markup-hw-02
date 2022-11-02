@@ -12,9 +12,19 @@ color: #000000*/
 background: #F5F4FA;*/
 /*підвал та герой 
 background: #2F303A;*/
+:root {
+  --primary-text-color:#757575;
+  --title-text-color:#212121;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --second-background-color: #F5F4FA;
+
+  
+}
 body {
-  color: #757575;
-  background-color: #ffffff;
+  color: var(--primary-text-color);
+  background-color: var(--white-color);
 }
 /* Прибирає "*" з усіх списків */
 ul {
@@ -22,38 +32,41 @@ ul {
 }
 /*кольори лого*/
 .logo {
-  color: #000000;
+  color: var(--black-color);
 }
 .logo-accent {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .logo:hover,
 .logo:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 /*Навігація по сайту*/
 .site-nav .link {
-  color: #212121;
+  color: var(--title-text-color);
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .contacts-list>.phone,
 .contacts-list>.e-mail {
-  color: #757575;
+  color: var(--primary-text-color);
 }
 .contacts-list:focus,
 .contacts-list:hover {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 /*Герой*/
 .hero {
-  color: #ffffff;
+  color: var(--white-color);
   background-color: #2f303a;
 }
 /* Секції*/
 .section-title,
 .section-subtitle {
-color: #212121;
+color: var(--title-text-color);
+}
+.comand-section {
+background-color: var(--second-background-color);
 }
