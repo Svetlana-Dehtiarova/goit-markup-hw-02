@@ -16,14 +16,34 @@ body {
   color: #212121;
   background-color: #ffffff;
 }
+/* Прибирає "*" з усіх списків */
 ul {
     list-style: none;
 }
+/*кольори лого*/
 .logo {
   color: #000000;
 }
 .logo-accent {
   color: #2196f3;
 }
-/* Прибирає "*" з усіх списків */
+.logo {
+color: #2196f3; 
 
+}
+/*Навігація по сайту*/
+.site-nav .link {
+  color:#212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus,
+ {
+  color: #2196f3;
+}
+.contacts {
+  color: #757575;
+}
+.contacts:focus,
+.contacts:hover {
+  color: #2196f3;
+}
