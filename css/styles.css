@@ -39,13 +39,20 @@ ul {
 .site-nav .link:focus {
   color: #2196f3;
 }
-.contacts-list {
+.contacts-list>.phone,
+.contacts-list>.e-mail {
   color: #757575;
 }
 .contacts-list:focus,
 .contacts-list:hover {
   color: #2196f3;
 }
+/*Герой*/
+.hero {
+  color: #ffffff;
+  background-color: #2f303a;
+}
+/* Секції*/
 .section-title,
 .section-subtitle {
 color: #212121;
