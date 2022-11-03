@@ -176,5 +176,5 @@ ul {
 .phone.second:focus,
 .e-mail.second:hover,
 .e-mail.second:focus {
-    color: var(--accent-color);
-  }
+  color: var(--accent-color);
+}
