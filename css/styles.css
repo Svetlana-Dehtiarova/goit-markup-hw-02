@@ -19,6 +19,7 @@ background: #2F303A;*/
   --white-color: #ffffff;
   --black-color: #000000;
   --second-background-color: #f5f4fa;
+  --footer-background-color: #2F303A;
 }
 body {
   color: var(--primary-text-color);
@@ -59,9 +60,6 @@ ul {
 .site-nav .link.current {
   color: var(--accent-color);
 }
-/*.site-nav .link.current {
-  color: var(--accent-color);
-}*/
 .contacts.list .phone,
 .contacts.list .e-mail {
   color: var(--primary-text-color);
@@ -118,7 +116,7 @@ text-transform: uppercase;
   font-weight: 700;
   font-size: 18px;
   line-height: 2.0;
-  text-align: none;
+  text-align: inherit;
 }
 /*Кнопка*/
 .button {
@@ -157,3 +155,6 @@ font-size: 16px;
 line-height: 1.88;
 }
 /*Футер*/
+.footer {
+  background-color: var(--footer-background-color);
+}
