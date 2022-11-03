@@ -158,10 +158,11 @@ line-height: 1.88;
 .footer {
   background-color: var(--footer-background-color);
 }
-.logo .footer,
+.logo.footer,
 .contacts-footer {
   color: var(--white-color);
 }
 .contacts-footer {
 line-height: 1.71;
+font-style: normal;
 }
