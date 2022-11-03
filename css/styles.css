@@ -118,6 +118,7 @@ text-transform: uppercase;
   font-weight: 700;
   font-size: 18px;
   line-height: 2.0;
+  text-align: none;
 }
 /*Кнопка*/
 .button {
