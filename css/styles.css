@@ -13,18 +13,18 @@ background: #F5F4FA;*/
 /*підвал та герой 
 background: #2F303A;*/
 :root {
-  --primary-text-color:#757575;
-  --title-text-color:#212121;
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
   --accent-color: #2196f3;
   --white-color: #ffffff;
   --black-color: #000000;
-  --second-background-color: #F5F4FA;
-
-  
+  --second-background-color: #f5f4fa;
 }
 body {
   color: var(--primary-text-color);
   background-color: var(--white-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
 }
 /* Прибирає "*" з усіх списків */
 ul {
@@ -33,9 +33,17 @@ ul {
 /*кольори лого*/
 .logo {
   color: var(--black-color);
+  font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
 }
 .logo-accent {
   color: var(--accent-color);
+  font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
 }
 .logo:hover,
 .logo:focus {
@@ -44,6 +52,10 @@ ul {
 /*Навігація по сайту*/
 .site-nav .link {
   color: var(--title-text-color);
+  letter-spacing: 0.02em;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -55,6 +67,10 @@ ul {
 .contacts.list .phone,
 .contacts.list .e-mail {
   color: var(--primary-text-color);
+  letter-spacing: 0.02em;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
 }
 .contacts.list .phone:focus,
 .contacts.list .phone:hover,
@@ -66,26 +82,48 @@ ul {
 .hero {
   color: var(--white-color);
   background-color: #2f303a;
+  letter-spacing: 0.06em;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    text-transform: uppercase;
 }
 /* Секції*/
 .section-title,
 .section-subtitle {
-color: var(--title-text-color);
+  color: var(--title-text-color);
+}
+.section-title.second {
+letter-spacing: 0.06em;
 }
 .comand-section {
-background-color: var(--second-background-color);
+  background-color: var(--second-background-color);
 }
 /*Кнопка*/
 .button {
   color: var(--title-text-color);
   background-color: var(--second-background-color);
+  font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
 }
 .button:hover,
-.button:focus{
-   color: var(--white-color);
-   background-color: var(--accent-color);
+.button:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
 }
 .primary-button {
   color: var(--white-color);
   background-color: var(--accent-color);
+  letter-spacing: 0.06em;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
