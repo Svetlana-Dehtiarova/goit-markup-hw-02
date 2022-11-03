@@ -163,10 +163,18 @@ ul {
 .logo.footer {
   color: var(--white-color);
 }
-.address.second,
+.location.second,
 .phone.second,
 .e-mail.second {
   line-height: 1.71;
   font-style: normal;
   color: var(--white-color);
 }
+.location.second:hover,
+.location.second:focus,
+.phone.second:hover,
+.phone.second:focus,
+.e-mail.second:hover,
+.e-mail.second:focus {
+    color: var(--accent-color);
+  }
