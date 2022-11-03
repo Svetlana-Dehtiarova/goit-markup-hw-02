@@ -32,7 +32,8 @@ ul {
   list-style: none;
 }
 /*кольори лого*/
-.logo {
+.logo,
+.logo-accent {
   color: var(--black-color);
   font-family: Raleway, sans-serif;
     font-weight: 700;
@@ -41,10 +42,6 @@ ul {
 }
 .logo-accent {
   color: var(--accent-color);
-  font-family: Raleway, sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
 }
 .logo:hover,
 .logo:focus {
@@ -55,22 +52,21 @@ ul {
   color: var(--title-text-color);
   letter-spacing: 0.02em;
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
 }
 .site-nav .link:hover,
-.site-nav .link:focus {
-  color: var(--accent-color);
-}
+.site-nav .link:focus,
 .site-nav .link.current {
   color: var(--accent-color);
 }
+/*.site-nav .link.current {
+  color: var(--accent-color);
+}*/
 .contacts.list .phone,
 .contacts.list .e-mail {
   color: var(--primary-text-color);
   letter-spacing: 0.02em;
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
 }
 .contacts.list .phone:focus,
@@ -104,7 +100,6 @@ ul {
 }
 .section-subtitle.first {
 font-weight: 700;
-font-size: 14px;
 line-height: 1.14;
 text-transform: uppercase;
 }
@@ -143,17 +138,12 @@ text-transform: uppercase;
   color: var(--white-color);
   background-color: var(--accent-color);
   letter-spacing: 0.06em;
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-    display: flex;
-    align-items: center;
-    text-align: center;
 }
 /*Абзаци*/
 .feature-list .text {
-    font-size: 14px;
     line-height: 1.71;    
 }
 .specialty {
@@ -165,3 +155,4 @@ text-transform: uppercase;
 font-size: 16px;
 line-height: 1.88;
 }
+/*Футер*/
