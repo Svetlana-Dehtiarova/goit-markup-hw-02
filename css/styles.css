@@ -127,6 +127,7 @@ ul {
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
+  cursor: pointer;
 }
 .button:hover,
 .button:focus {
@@ -140,6 +141,7 @@ ul {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
+  cursor: pointer;
 }
 /*Абзаци*/
 .feature-list .text {
@@ -161,7 +163,9 @@ ul {
 .logo.footer {
   color: var(--white-color);
 }
-.contacts-footer {
+.address.second,
+.phone.second,
+.e-mail.second {
   line-height: 1.71;
   font-style: normal;
   color: var(--white-color);
